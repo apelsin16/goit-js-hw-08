@@ -102,7 +102,7 @@ galleryList.addEventListener('click', (event) => {
     const largeImageURL = event.target.dataset.source;
 
     const instance = basicLightbox.create(`
-        <img src="${largeImageURL}" width="800" height="600">
+        <img src="${largeImageURL}" width="1112" height="640">
     `);
 
     instance.show();
